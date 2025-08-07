@@ -8,7 +8,7 @@ export default function Plane() {
 
   return (
     <mesh ref={plane} rotation={[0, 0, 0]}>
-      <planeGeometry args={[3, 3, 64, 64]} />
+      <planeGeometry args={[4, 4, 64, 64]} />
       <shaderMaterial
         side={THREE.DoubleSide}
         vertexShader={vertexShader}
